@@ -1391,12 +1391,10 @@
     delay "^4.3.0"
     lodash "^4.17.15"
 
-"@ladjs/node-dotify@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@ladjs/node-dotify/-/node-dotify-2.0.0.tgz#ac106a4969eb4ed673c77b9dff5f23d93f168c59"
-  integrity sha512-zIHZZWtX4d7dRWKzQHwxGHBzjKu8i7WWeJv9nDXqg04BINZa7ApaWeHYBkeeQyzRNTHDO1iysJWaD0GKyabZfw==
-  dependencies:
-    bson-objectid "^1.3.1"
+"@ladjs/node-dotify@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@ladjs/node-dotify/-/node-dotify-3.0.0.tgz#409b884c2911fc55ef7e278f3ab8c015fe468f75"
+  integrity sha512-kfmkxxAURZCaKPRGEx23oBHW8yGEpcBBDWf/rk5iRuLi8+nqjxvzVQ3cQOeBzIal9dY2NOQWqGX8pLx6Gn4Vqg==
 
 "@ladjs/passport-otp-strategy@^1.1.0":
   version "1.1.0"
@@ -1420,13 +1418,13 @@
     passport-google-oauth "^2.0.0"
     validator "^12.1.0"
 
-"@ladjs/pick-original@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ladjs/pick-original/-/pick-original-1.0.0.tgz#424a87ecce2ab9fc1664e28626fbace28639ce94"
-  integrity sha512-cwogfBne2dRspUAwMms8wLsA2CFxp7VdkLKwCqJ5LjvEqr4fHwmMTNoHW5WFj/lCx8ik2eZRLNnWke4nHsHshA==
+"@ladjs/pick-original@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ladjs/pick-original/-/pick-original-2.0.0.tgz#d724d430704ee4e9aa413f68905fe727c64b00ab"
+  integrity sha512-m08EtLC0EqW/fb13t+lRGDKyZXTlqC4IZYtPdLXyWzDveJGZrnyZXWqNpnmCxt8ZKiHKEqy66kbqxHEEcXJkDg==
   dependencies:
-    "@ladjs/node-dotify" "^2.0.0"
-    lodash "^4.17.20"
+    "@ladjs/node-dotify" "^3.0.0"
+    lodash "^4.17.21"
 
 "@ladjs/policies@^5.0.0":
   version "5.0.0"
