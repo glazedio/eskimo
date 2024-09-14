@@ -29,7 +29,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@hapi/boom": "^9.1.1",
-    "@koa/router": "^10.0.0",
+    "@koa/router": "^13.0.1",
     "@ladjs/api": "^6.0.0",
     "@ladjs/assets": "^1.1.1",
     "@ladjs/env": "^3.0.0",

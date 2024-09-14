@@ -1253,6 +1253,15 @@
     methods "^1.1.2"
     path-to-regexp "^6.1.0"
 
+"@koa/router@^13.0.1":
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/@koa/router/-/router-13.0.1.tgz#ecd3dd37ac45bcf2b397a96c6a6dc17f9f0ec2f6"
+  integrity sha512-3NKqQt8pKjTKUBVnQx/E980rB6IyERd8QruImdxIVM2vb8TJWKYPnesw+mfElV/3wmdrc/rWk60Rs41Prr4XgQ==
+  dependencies:
+    http-errors "^2.0.0"
+    koa-compose "^4.1.0"
+    path-to-regexp "^8.1.0"
+
 "@ladjs/api@^6.0.0":
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/@ladjs/api/-/api-6.0.3.tgz#9ffa3ff62208714eef82c3f66195d6c2756cdca7"
@@ -8893,7 +8902,7 @@ http-cache-semantics@^4.0.0:
   resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"
   integrity sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==
 
-http-errors@2.0.0:
+http-errors@2.0.0, http-errors@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-2.0.0.tgz#b7774a1486ef73cf7667ac9ae0858c012c57b9d3"
   integrity sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==
@@ -13934,6 +13943,11 @@ path-to-regexp@^6.1.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.2.0.tgz#f7b3803336104c346889adece614669230645f38"
   integrity sha512-f66KywYG6+43afgE/8j/GoiNyygk/bnoCbps++3ErRKsIYkGGupyv07R2Ok5m9i67Iqc+T2g1eAUGUPzWhYTyg==
+
+path-to-regexp@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-8.1.0.tgz#4d687606ed0be8ed512ba802eb94d620cb1a86f0"
+  integrity sha512-Bqn3vc8CMHty6zuD+tG23s6v2kwxslHEhTj4eYaVKGIEB+YX/2wd0/rgXLFD9G9id9KCtbVy/3ZgmvZjpa0UdQ==
 
 path-type@^1.0.0:
   version "1.1.0"
